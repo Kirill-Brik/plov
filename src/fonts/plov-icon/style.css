@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "plov-icon";
+  src: url("/src/fonts/plov-icon/font/plov-icon.eot");
+  src: url("/src/fonts/plov-icon/font/plov-icon.eot")
+      format("embedded-opentype"),
+    url("/src/fonts/plov-icon/font/plov-icon.ttf") format("truetype"),
+    url("/src/fonts/plov-icon/font/plov-icon.woff") format("woff"),
+    url("/src/fonts/plov-icon/font/plov-icon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "plov-icon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow_right:before {
+  content: "\e900";
+}
+.icon-broom:before {
+  content: "\e901";
+}
+.icon-button_bg:before {
+  content: "\e902";
+}
+.icon-check_mark:before {
+  content: "\e903";
+}
+.icon-fork_left:before {
+  content: "\e904";
+}
+.icon-hopot:before {
+  content: "\e905";
+}
+.icon-phone:before {
+  content: "\e906";
+}
+.icon-spoon_right:before {
+  content: "\e907";
+}
+.icon-telegram:before {
+  content: "\e908";
+}
+.icon-termometr:before {
+  content: "\e909";
+}
+.icon-vk:before {
+  content: "\e90a";
+}

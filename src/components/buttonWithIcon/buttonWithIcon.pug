@@ -1,0 +1,11 @@
+mixin buttonWithIcon({link, text})
+  if link
+    a.button.button_type_link(href="#")
+      span.button__text= text
+      span.button__icon-bg .icon-button_bg
+        span.button__icon.icon-arrow_right
+  else
+    button.button.button_type_button
+      span.button__text= text
+      span.button__icon-bg.icon-button_bg
+        span.button__icon.icon-arrow_right
