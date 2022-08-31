@@ -1,0 +1,23 @@
+{
+  "name": "plov",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel -p 3000",
+    "build": "parcel build"
+  },
+  "author": "Kirill Brik",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "normalize.css": "^8.0.1",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "preact": "^10.10.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
