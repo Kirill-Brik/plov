@@ -1,0 +1,18 @@
+.red-filter {
+  position: relative;
+  width: 300px;
+  height: 400px;
+
+  &__layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #8e161f;
+    mix-blend-mode: overlay;
+
+    &_color_dark-red {
+      background-color: #49191c;
+      mix-blend-mode: screen;
+    }
+  }
+}

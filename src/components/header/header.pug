@@ -1,36 +1,42 @@
 include ../buttonWithIcon/buttonWithIcon
+include ../redFilter/redFilter
 
 header.header
+  +redFilter.header__filter
   nav.header__nav
-    ul.header__list 
-      li.header__list-item
+    ul.header__nav-list
+      li.header__nav-item
         a.header__nav-link(
           href="http://",
           target="_blank",
           rel="noopener noreferrer"
         ) Павелецая наб., 2, стр. 18
-      li.header__list-item
+      li.header__nav-item
         a.header__nav-link(href="tel:+7-926-51-65-555") 8-926-51-65-555
-      li.header__list-item
+      li.header__nav-item
         a.header__nav-button(
           href="http://",
           target="_blank",
           rel="noopener noreferrer"
         ) 
           span.icon-button_bg
-      li.header__list-item
+            span.header__nav-button-icon.icon-telegram
+      li.header__nav-item
         a.header__nav-button(
           href="http://",
           target="_blank",
           rel="noopener noreferrer"
         ) 
           span.icon-button_bg
+            span.header__nav-button-icon.icon-vk
   .header__banner
-    .header__content
-      h1.header__title Семейные
-        span.header__title.header__title_size_small традиции вкуса
-      p.banner__text Слегка терпкий вкус риса с приятной остротой, сладость моркови и аппетитные кусочки мяса…
-      p.banner__text Рука так и тянется за новой порцией!
-      +buttonWithIcon({link: true, text: 'Сделать заказ'})
-    .header__image-wrapper
-      img(src="/src/images/plov_header.png", alt="")
+    h1.header__title Семейные
+      span.header__subtitle
+        span традиции
+        span вкуса
+    .header__text
+      p Слегка терпкий вкус риса с приятной остротой, сладость моркови и аппетитные кусочки мяса…
+      p Рука так и тянется за новой порцией!
+    +buttonWithIcon({link: true, text: 'Сделать заказ', hoverIconWhite: true}).header__banner-button
+  .header__image-wrapper
+    img.header__image(src="/src/images/plov_header.png", alt="")

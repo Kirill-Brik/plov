@@ -1,6 +1,7 @@
 @use "normalize.css";
 @use "/src/fonts/plov-icon/style.css";
 @use "/src/fonts/Montserrat/montserrat.css";
+@use "/src/fonts/Caveat/caveat.css";
 
 html {
   font-family: sans-serif;
@@ -32,4 +33,5 @@ a {
 .root {
   min-height: 100vh;
   background: url("/src/images/page_bg.png") repeat-y top / cover, #171717;
+  overflow: hidden;
 }

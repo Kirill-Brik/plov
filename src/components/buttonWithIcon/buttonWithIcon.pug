@@ -1,11 +1,15 @@
-mixin buttonWithIcon({link, text})
+mixin buttonWithIcon({link, text, hoverIconWhite})
   if link
-    a.button.button_type_link(href="#")
+    a.button.button_type_link(
+      href="#",
+      class=attributes.class,
+      class={ "button_hover_white-icon": hoverIconWhite }
+    )
       span.button__text= text
-      span.button__icon-bg .icon-button_bg
-        span.button__icon.icon-arrow_right
+      span.icon-button_bg
+        span.icon-arrow_right
   else
-    button.button.button_type_button
+    button.button.button_type_button(class=attributes.class)
       span.button__text= text
-      span.button__icon-bg.icon-button_bg
-        span.button__icon.icon-arrow_right
+      span.icon-button_bg
+        span.icon-arrow_right

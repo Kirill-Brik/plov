@@ -1,0 +1,42 @@
+.button {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content;
+  column-gap: 23px;
+  width: max-content;
+
+  &_hover_white-icon {
+    &:hover {
+      .icon-button_bg {
+        color: white;
+      }
+      .icon-arrow_right {
+        color: #d1191c;
+      }
+    }
+  }
+
+  &__text {
+    font-family: "Caveat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+
+  .icon-button_bg {
+    position: relative;
+    font-size: 69px;
+    color: #d1191c;
+  }
+
+  .icon-arrow_right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: white;
+  }
+}
