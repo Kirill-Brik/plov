@@ -1,7 +1,8 @@
 @use "normalize.css";
-@use "/src/fonts/plov-icon/style.css";
-@use "/src/fonts/Montserrat/montserrat.css";
-@use "/src/fonts/Caveat/caveat.css";
+@use "/src/fonts/plov-icon/plov-icon.css";
+@use "/src/fonts/Montserrat/Montserrat.css";
+@use "/src/fonts/Caveat/Caveat.css";
+@use "/src/fonts/Muller/Muller.css";
 
 html {
   font-family: sans-serif;

@@ -5,13 +5,14 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background: url("/src/images/smoke_2.png") no-repeat bottom right 47px /
-      calc(832 / 1440 * 100vw),
-    // Большой дым под изображением
-    url("/src/images/smoke_3.png") no-repeat top 110px right 6.2px / 436.8px,
-    // маленький дым под изображением
-    url(/src/images/smoke_1.png) no-repeat -327px -339px / 607px,
-    // дым с краю
+  background: 
+  // url("/src/images/smoke_2.png") no-repeat bottom right 47px /
+  //     calc(832 / 1440 * 100vw),
+  //   // Большой дым под изображением
+  //   url("/src/images/smoke_3.png") no-repeat top 110px right 6.2px / 436.8px,
+  //   // маленький дым под изображением
+  //   url(/src/images/smoke_1.png) no-repeat -327px -339px / 607px,
+  //   // дым с краю
     url("/src/images/page_bg_wood.png") repeat-y bottom / cover;
 
   &__filter {
@@ -79,6 +80,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #d1191c;
+    text-shadow: none;
   }
 
   &__banner {
@@ -99,16 +101,17 @@
     font-weight: 700;
     font-size: 80px;
     line-height: 98px;
+    text-transform: uppercase;
     color: white;
-  }
 
-  &__subtitle {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: max-content;
-    column-gap: 21px;
-    font-size: 48px;
-    line-height: 59px;
+    &_size_small {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: max-content;
+      column-gap: 21px;
+      font-size: 48px;
+      line-height: 59px;
+    }
   }
 
   &__text {

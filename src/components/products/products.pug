@@ -1,0 +1,17 @@
+include ../buttonWithIcon/buttonWithIcon
+
+mixin card({title, image, text, weight, price})
+  li.products__card
+    h3.products__title= title
+    .products__image-wrapper
+      img.products__image(src=image, alt=title)
+    p.products__text= text
+    p.products__weight= `${weight}гр`
+    p.products__price= `${price}р`
+    +buttonWithIcon({link: true, text: 'Сделать заказ'})
+
+section.products
+  ul.products__list
+    +card({title: 'Плов чайханский', image: '/src/images/plov_card_1.png', text: 'Самый традиционный рецепт плова, по которому готовят во множестве ташкентских семей', weight: '300', price: '370'})
+    +card({title: 'Плов свадебный', image: '/src/images/plov_card_2.png', text: 'Это плов, сочетает в себе сразу несколько разновидностей плова. Оно настолько вкусное, что кхочется заказывать снова и снова', weight: '300', price: '370'})
+    +card({title: 'Плов праздничный', image: '/src/images/plov_card_3.png', text: 'Это блюдо достойно праздничного стола! Всего помногу и все самое яркое!', weight: '300', price: '370'})

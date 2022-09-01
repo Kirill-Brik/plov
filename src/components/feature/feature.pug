@@ -1,0 +1,7 @@
+mixin feature({icon, title, text})
+  .feature
+    span.icon-button_bg
+      span.feature__icon(class=`icon-${icon}`) 
+    .feature__content
+      h3.feature__title= title
+      p.feature__text= text

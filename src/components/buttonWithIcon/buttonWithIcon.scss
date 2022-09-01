@@ -5,6 +5,12 @@
   column-gap: 23px;
   width: max-content;
 
+  &:hover {
+    .icon-button_bg {
+      color: #811518;
+    }
+  }
+
   &_hover_white-icon {
     &:hover {
       .icon-button_bg {
@@ -29,6 +35,7 @@
     position: relative;
     font-size: 69px;
     color: #d1191c;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
 
   .icon-arrow_right {
@@ -38,5 +45,6 @@
     transform: translate(-50%, -50%);
     font-size: 15px;
     color: white;
+    text-shadow: none;
   }
 }
