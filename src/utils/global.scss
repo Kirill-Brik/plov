@@ -33,6 +33,6 @@ a {
 
 .root {
   min-height: 100vh;
-  background: url("/src/images/page_bg.png") repeat-y top / cover, #171717;
+  background: url("/src/images/page_bg.png") repeat-y top / contain, #171717;
   overflow: hidden;
 }

@@ -1,0 +1,247 @@
+.banner-feature {
+  position: relative;
+  margin: 217px 205px 248px 195px;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__background-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #85191c;
+    mix-blend-mode: overlay;
+
+    &_color_dark-red {
+      background: #49191c;
+      mix-blend-mode: screen;
+    }
+
+    &_smoke {
+      background: url("/src/images/smoke.png") no-repeat center / cover;
+      mix-blend-mode: normal;
+    }
+
+    &_effect_blur {
+      background: rgba(142, 22, 31, 0.4);
+      mix-blend-mode: normal;
+      backdrop-filter: blur(15px);
+    }
+
+    &_type_image {
+      mix-blend-mode: normal;
+    }
+
+    &_image_1 {
+      top: -67.88px;
+      left: calc(69.07 / 1040 * 100%);
+      width: 221.46px;
+      height: 191.99px;
+      transform: rotate(-95.29deg);
+      background: url("/src/images/bg_kinza.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    &_image_2 {
+      top: 121.03px;
+      left: calc(299.52 / 1040 * 100%);
+      width: 221.46px;
+      height: 191.99px;
+      transform: rotate(146.7deg);
+      background: url("/src/images/bg_kinza.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    &_image_3 {
+      top: -77.57px;
+      left: auto;
+      right: calc(252.65 / 1040 * 100%);
+      width: 221.46px;
+      height: 191.99px;
+      transform: rotate(-103.79deg);
+      background: url("/src/images/bg_kinza.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    &_image_4 {
+      top: -103.73px;
+      left: calc(378 / 1040 * 100%);
+      width: 243px;
+      height: 189px;
+      background: url("/src/images/bg_salt.png") center / contain;
+    }
+
+    &_image_5 {
+      top: auto;
+      left: calc(-87 / 1040 * 100%);
+      bottom: -63px;
+      width: 254px;
+      height: 196px;
+      opacity: 0.5;
+      background: url("/src/images/bg_salt.png") center / contain;
+    }
+
+    &_image_6 {
+      top: auto;
+      left: auto;
+      right: calc(33 / 1040 * 100%);
+      bottom: -141px;
+      width: 254px;
+      height: 196px;
+      opacity: 0.5;
+      background: url("/src/images/bg_salt.png") center / contain;
+    }
+
+    &_image_7 {
+      top: -160.72px;
+      left: auto;
+      right: calc(-43.51 / 1040 * 100%);
+      width: 466px;
+      height: 582px;
+      transform: rotate(120deg);
+      background: url("/src/images/bg_carrot.png") center / contain;
+    }
+
+    &_image_8 {
+      top: -63.18px;
+      left: calc(-94.97 / 1040 * 100%);
+      width: 366.44px;
+      height: 457.65px;
+      transform: rotate(-73.6deg);
+      background: url("/src/images/bg_carrot.png") center / contain;
+    }
+
+    &_image_9 {
+      top: -118.27px;
+      left: auto;
+      right: calc(133.76 / 1040 * 100%);
+      width: 258px;
+      height: 230px;
+      transform: rotate(148.19deg);
+      background: url("/src/images/bg_pepper.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    &_image_10 {
+      top: -183.26px;
+      left: calc(121.37 / 1040 * 100%);
+      width: 258px;
+      height: 230px;
+      transform: rotate(15deg);
+      background: url("/src/images/bg_pepper.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    &_image_11 {
+      top: auto;
+      left: calc(299 / 1040 * 100%);
+      bottom: -132px;
+      width: 258px;
+      height: 230px;
+      background: url("/src/images/bg_pepper.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    &_image_12 {
+      top: auto;
+      left: calc(-33 / 1040 * 100%);
+      bottom: -54px;
+      width: 182px;
+      height: 162px;
+      background: url("/src/images/bg_pepper.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    &_image_13 {
+      top: -25px;
+      left: auto;
+      right: calc(-37 / 1040 * 100%);
+      width: 182px;
+      height: 162px;
+      background: url("/src/images/bg_pepper.png") center / contain;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    &_image_14 {
+      top: auto;
+      left: calc(83.89 / 1040 * 100%);
+      bottom: -93.13px;
+      width: 283.44px;
+      height: 164.23px;
+      background: url("/src/images/bg_garlic.png") center / contain;
+      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+      transform: rotate(19.98deg);
+    }
+
+    &_image_15 {
+      top: -120px;
+      left: auto;
+      right: calc(123 / 1040 * 100%);
+      width: 164px;
+      height: 157px;
+      background: url("/src/images/bg_onion_1.png") center / contain;
+      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    }
+
+    &_image_16 {
+      top: -61px;
+      left: auto;
+      right: calc(233 / 1040 * 100%);
+      width: 109px;
+      height: 115px;
+      background: url("/src/images/bg_onion_2.png") center / contain;
+      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    }
+
+    &_image_17 {
+      top: auto;
+      left: auto;
+      right: calc(246.98 / 1040 * 100%);
+      bottom: -89.01px;
+      width: 281.87px;
+      height: 149.98px;
+      background: url("/src/images/bg_berry.png") center / contain;
+      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+      transform: rotate(-169.68deg);
+    }
+
+    &_image_18 {
+      top: -107.02px;
+      left: auto;
+      right: -129.36px;
+      width: 227.45px;
+      height: 197.18px;
+      background: url("/src/images/bg_kinza.png") center / contain;
+      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+      transform: rotate(-16.13deg);
+    }
+
+    &_image_19 {
+      top: auto;
+      left: auto;
+      right: -169px;
+      bottom: -104.27px;
+      width: 307px;
+      height: 246px;
+      background: url("/src/images/bg_red_pepper.png") center / contain;
+    }
+  }
+
+  &__text {
+    position: relative;
+    z-index: 1;
+    padding: 76px 93px 82px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+  }
+}

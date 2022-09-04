@@ -1,0 +1,161 @@
+@use "swiper/swiper.scss";
+
+.reports {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 200px 0;
+
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 107px;
+  }
+
+  &__container {
+    position: relative;
+    width: 100%;
+  }
+
+  .swiper {
+    &-slide {
+      padding-top: 30px;
+      height: auto;
+    }
+
+    &-button {
+      &-disabled {
+        opacity: 0.5;
+
+        &:hover {
+          color: white !important;
+        }
+      }
+
+      &-prev {
+        position: absolute;
+        top: 50%;
+        left: -49.57px;
+        transform: translate(-100%, -50%);
+        font-family: "plov-icon";
+        font-size: 75.43px;
+        color: white;
+
+        &::before {
+          content: "\e904";
+        }
+
+        &:hover {
+          color: #d1191c;
+        }
+      }
+
+      &-next {
+        position: absolute;
+        top: 50%;
+        right: -52px;
+        transform: translate(100%, -50%);
+        font-family: "plov-icon";
+        font-size: 72.47px;
+        color: white;
+
+        &::before {
+          content: "\e907";
+        }
+
+        &:hover {
+          color: #d1191c;
+        }
+      }
+    }
+
+    &-pagination {
+      padding-top: 42px;
+      width: 100%;
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: max-content;
+      column-gap: 20px;
+      justify-content: center;
+
+      &-bullet {
+        font-family: "plov-icon";
+        font-size: 19.85px;
+        color: rgba(209, 25, 28, 0.4);
+        text-shadow: 12.8986px 12.8986px 12.8986px rgba(0, 0, 0, 0.5);
+
+        &::before {
+          content: "\e902";
+        }
+
+        &-active {
+          color: #d1191c;
+        }
+      }
+    }
+  }
+}
+
+.report {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr;
+  row-gap: 20px;
+  justify-items: center;
+  padding: 88px 34px 24px;
+  height: 100%;
+  background: rgba(46, 46, 46, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+
+  .icon-button_bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -30px);
+    font-size: 69px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    color: #d1191c;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 8px);
+    font-family: "Caveat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 0px white;
+  }
+
+  &__title {
+    font-family: "Caveat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+  }
+
+  &__text {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+  }
+}

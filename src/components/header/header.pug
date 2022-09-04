@@ -2,6 +2,8 @@ include ../buttonWithIcon/buttonWithIcon
 include ../redFilter/redFilter
 
 header.header
+  .header__bg.header__bg_image_1
+  .header__bg.header__bg_image_2
   +redFilter.header__filter
   nav.header__nav
     ul.header__nav-list
@@ -37,6 +39,9 @@ header.header
     .header__text
       p Слегка терпкий вкус риса с приятной остротой, сладость моркови и аппетитные кусочки мяса…
       p Рука так и тянется за новой порцией!
+    .header__image-wrapper
+      .header__image-ratio
+        .header__image-sparks
+        .header__image-smoke
+        img.header__image(src="/src/images/plov_header.png", alt="")
     +buttonWithIcon({link: true, text: 'Сделать заказ', hoverIconWhite: true}).header__banner-button
-  .header__image-wrapper
-    img.header__image(src="/src/images/plov_header.png", alt="")

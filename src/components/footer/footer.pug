@@ -1,0 +1,41 @@
+include ../redFilter/redFilter
+
+footer.footer
+  +redFilter.footer__filter
+  .footer__content
+    h2.footer__title С нами вы питаетесь правильно
+      span.footer__title.footer__title_size_big сытно и вкусно!
+    .footer__image-wrapper
+      .footer__image-ratio
+        img.footer__image(src="/src/images/footer_plov.png", alt="Плов")
+    nav.footer__nav
+      ul.footer__nav-list
+        li.footer__nav-item
+          a.footer__nav-link(
+            href="http://",
+            target="_blank",
+            rel="noopener noreferrer"
+          ) Павелецкая наб., 2, стр. 18
+        li.footer__nav-item
+          a.footer__nav-link(href="tel:+7-926-51-65-555")
+            span.icon-button_bg
+              span.icon-phone
+            span 8-926-51-65-555
+        li.footer__nav-item
+          a.footer__nav-link(
+            href="http://",
+            target="_blank",
+            rel="noopener noreferrer"
+          )
+            span.icon-button_bg
+              span.icon-telegram
+            span Telegram
+        li.footer__nav-item
+          a.footer__nav-link(
+            href="http://",
+            target="_blank",
+            rel="noopener noreferrer"
+          )
+            span.icon-button_bg
+              span.icon-vk
+            span Vkontakte

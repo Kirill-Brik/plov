@@ -1,0 +1,15 @@
+include ../buttonWithIcon/buttonWithIcon
+include ../redFilter/redFilter
+
+section.banner-product
+  +redFilter.banner-product__filter
+  .banner-product__content
+    .banner-product__image-wrapper
+      .banner-product__image-ratio
+      img.banner-product__image(
+        src="/src/images/tortilla.png",
+        alt="Узбекская лепёшка"
+      )
+    h3.banner-product__title Узбекская лепёшка
+    p.banner-product__text Почуствуйте аппетитный аромат воздушного и хрустящего узбекского хлеба приготовленного в настоящем тандыре.
+    +buttonWithIcon({link: true, text: 'Сделать заказ'})
