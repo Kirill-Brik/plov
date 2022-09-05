@@ -67,7 +67,6 @@
     line-height: 39px;
     text-transform: uppercase;
     color: white;
-    text-shadow: 5.46153px 5.46153px 5.46153px rgba(0, 0, 0, 0.5);
 
     @media screen and (max-width: 768px) {
       row-gap: 5px;
@@ -145,8 +144,10 @@
     position: relative;
     z-index: 1;
     box-sizing: border-box;
+    margin: auto;
     padding: 61px 219px 0;
     width: 100%;
+    max-width: 1440px;
 
     @media screen and (max-width: 1024px) {
       padding: 20px 0 0;
