@@ -2,11 +2,12 @@
   position: relative;
   margin-top: 169.15px;
   padding-bottom: 128.96px;
-  background: url("/src/images/page_bg_wood.png") no-repeat top / 100% 925px;
+  background: url("/src/images/page_bg_wood.png") no-repeat top / 100%
+    calc(925 / 1440 * 100vw);
 
   @media screen and (max-width: 1024px) {
     padding-bottom: 24px;
-    background-size: 100% 100%;
+    background-size: auto 100%;
   }
 
   &__bg {
@@ -138,6 +139,7 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
   }
 
   &__nav {
