@@ -2,6 +2,18 @@
   position: relative;
   margin: 217px 205px 248px 195px;
 
+  @media screen and (max-width: 1024px) {
+    margin: 113px 50px 110px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 113px 50px 110px;
+  }
+
+  @media screen and (max-width: 460px) {
+    margin: 113px 20px 110px;
+  }
+
   &__background {
     position: absolute;
     top: 0;
@@ -47,6 +59,10 @@
       transform: rotate(-95.29deg);
       background: url("/src/images/bg_kinza.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
     &_image_2 {
       top: 121.03px;
@@ -66,6 +82,16 @@
       transform: rotate(-103.79deg);
       background: url("/src/images/bg_kinza.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        top: auto;
+        left: auto;
+        right: -27.07px;
+        bottom: -48.36px;
+        width: 209.22px;
+        height: 181.38px;
+        transform: rotate(-188.19deg) scale(-1, 1);
+      }
     }
 
     &_image_4 {
@@ -74,6 +100,10 @@
       width: 243px;
       height: 189px;
       background: url("/src/images/bg_salt.png") center / contain;
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     &_image_5 {
@@ -95,6 +125,10 @@
       height: 196px;
       opacity: 0.5;
       background: url("/src/images/bg_salt.png") center / contain;
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     &_image_7 {
@@ -105,6 +139,19 @@
       height: 582px;
       transform: rotate(120deg);
       background: url("/src/images/bg_carrot.png") center / contain;
+
+      @media screen and (max-width: 1024px) {
+        top: -17.35px;
+        left: auto;
+        right: -40.63px;
+        bottom: auto;
+        z-index: 1;
+        width: 258.95px;
+        height: 157.04px;
+        transform: rotate(-128.61deg);
+        background-position: top center;
+        background-size: 100%;
+      }
     }
 
     &_image_8 {
@@ -114,6 +161,19 @@
       height: 457.65px;
       transform: rotate(-73.6deg);
       background: url("/src/images/bg_carrot.png") center / contain;
+
+      @media screen and (max-width: 1024px) {
+        top: auto;
+        left: 51.65px;
+        right: auto;
+        bottom: 3.64px;
+        z-index: 1;
+        width: 185.76px;
+        height: 112.66px;
+        transform: rotate(64.78deg);
+        background-position: top center;
+        background-size: 100%;
+      }
     }
 
     &_image_9 {
@@ -125,6 +185,10 @@
       transform: rotate(148.19deg);
       background: url("/src/images/bg_pepper.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     &_image_10 {
@@ -135,6 +199,17 @@
       transform: rotate(15deg);
       background: url("/src/images/bg_pepper.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        top: 6px;
+        left: 21px;
+        right: auto;
+        bottom: auto;
+        z-index: 1;
+        width: 182px;
+        height: 162px;
+        transform: rotate(0);
+      }
     }
 
     &_image_11 {
@@ -145,6 +220,10 @@
       height: 230px;
       background: url("/src/images/bg_pepper.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     &_image_12 {
@@ -155,6 +234,15 @@
       height: 162px;
       background: url("/src/images/bg_pepper.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        top: auto;
+        left: 27px;
+        right: auto;
+        bottom: -21px;
+        width: 208px;
+        height: 186px;
+      }
     }
 
     &_image_13 {
@@ -165,6 +253,10 @@
       height: 162px;
       background: url("/src/images/bg_pepper.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     &_image_14 {
@@ -176,6 +268,17 @@
       background: url("/src/images/bg_garlic.png") center / contain;
       filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
       transform: rotate(19.98deg);
+
+      @media screen and (max-width: 1024px) {
+        top: auto;
+        left: -17.16px;
+        right: auto;
+        bottom: -61.88px;
+        z-index: 2;
+        width: 215.44px;
+        height: 124.83px;
+        transform: rotate(19.98deg);
+      }
     }
 
     &_image_15 {
@@ -186,6 +289,17 @@
       height: 157px;
       background: url("/src/images/bg_onion_1.png") center / contain;
       filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+
+      @media screen and (max-width: 1024px) {
+        top: -79.5px;
+        left: auto;
+        right: -18.14px;
+        bottom: auto;
+        z-index: 2;
+        width: 144px;
+        height: 138px;
+        transform: rotate(-22.79deg);
+      }
     }
 
     &_image_16 {
@@ -196,6 +310,17 @@
       height: 115px;
       background: url("/src/images/bg_onion_2.png") center / contain;
       filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+
+      @media screen and (max-width: 1024px) {
+        top: -1.84px;
+        left: auto;
+        right: 60.19px;
+        bottom: auto;
+        z-index: 2;
+        width: 96px;
+        height: 101px;
+        transform: rotate(-22.79deg);
+      }
     }
 
     &_image_17 {
@@ -208,6 +333,16 @@
       background: url("/src/images/bg_berry.png") center / contain;
       filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
       transform: rotate(-169.68deg);
+
+      @media screen and (max-width: 1024px) {
+        top: auto;
+        left: auto;
+        right: -12.71px;
+        bottom: -43.12px;
+        width: 240.77px;
+        height: 128.11px;
+        transform: rotate(150.48deg);
+      }
     }
 
     &_image_18 {
@@ -219,6 +354,17 @@
       background: url("/src/images/bg_kinza.png") center / contain;
       filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
       transform: rotate(-16.13deg);
+
+      @media screen and (max-width: 1024px) {
+        top: -82.77px;
+        left: -44.72px;
+        right: auto;
+        bottom: auto;
+        z-index: 2;
+        width: 223.6px;
+        height: 193.84px;
+        transform: rotate(96.57deg);
+      }
     }
 
     &_image_19 {
@@ -229,6 +375,16 @@
       width: 307px;
       height: 246px;
       background: url("/src/images/bg_red_pepper.png") center / contain;
+
+      @media screen and (max-width: 1024px) {
+        top: -28px;
+        left: -36px;
+        right: auto;
+        bottom: auto;
+        z-index: 2;
+        width: 255px;
+        height: 204px;
+      }
     }
   }
 
@@ -243,5 +399,26 @@
     line-height: 34px;
     text-align: center;
     color: white;
+
+    @media screen and (max-width: 1400px) {
+      padding: 120px 100px;
+    }
+
+    @media screen and (max-width: 1280px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    @media screen and (max-width: 1024px) {
+      padding: 180px 30px;
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding: 240px 10px;
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 }

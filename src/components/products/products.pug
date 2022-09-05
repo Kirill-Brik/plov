@@ -4,6 +4,8 @@ mixin card({title, image, text, weight, price})
   li.products__card
     h3.products__title= title
     .products__image-wrapper
+      .products__bg-smoke
+      .products__bg-spark
       img.products__image(src=image, alt=title)
     p.products__text= text
     p.products__weight= `${weight}гр`
