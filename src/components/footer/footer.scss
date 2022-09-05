@@ -203,9 +203,20 @@
 
       &:nth-child(3),
       &:nth-child(4) {
+        display: flex;
+        width: 100%;
+
         .footer__link-text {
           display: none;
         }
+      }
+
+      &:nth-child(3) {
+        justify-content: end;
+      }
+
+      &:nth-child(4) {
+        justify-content: start;
       }
     }
   }
