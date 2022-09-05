@@ -22,6 +22,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: max-content;
     gap: 18px;
+    justify-items: center;
 
     @media screen and (max-width: 1439px) {
       grid-template-columns: 1fr 1fr;

@@ -72,6 +72,10 @@
       transform: rotate(146.7deg);
       background: url("/src/images/bg_kinza.png") center / contain;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
     &_image_3 {
       top: -77.57px;
@@ -114,6 +118,10 @@
       height: 196px;
       opacity: 0.5;
       background: url("/src/images/bg_salt.png") center / contain;
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     &_image_6 {

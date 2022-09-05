@@ -11,7 +11,7 @@
     margin: 0 20px;
   }
 
-  &__bg {
+  &__bg-main {
     position: absolute;
     top: -283px;
     left: calc(50% + 16px);
@@ -25,6 +25,33 @@
       left: 50%;
       height: calc(404 / 375 * 100vw);
       width: calc(421 / 375 * 100vw);
+    }
+  }
+
+  &__bg-1 {
+    position: absolute;
+    bottom: -285px;
+    left: -394px;
+    width: 688px;
+    height: 662px;
+    background: url("/src/images/smoke.png") no-repeat center / contain;
+    transform: rotate(90deg);
+
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &__bg-2 {
+    position: absolute;
+    bottom: -398px;
+    right: -467px;
+    width: 688px;
+    height: 662px;
+    background: url("/src/images/smoke.png") no-repeat center / contain;
+
+    @media screen and (max-width: 1024px) {
+      display: none;
     }
   }
 
@@ -52,7 +79,7 @@
 
   &__image-wrapper {
     position: relative;
-    padding-bottom: 13px;
+    margin-bottom: 13px;
     max-width: 657px;
     width: 100%;
 
